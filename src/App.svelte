@@ -55,6 +55,10 @@
 
 </script>
 
+<svelte:head>
+	<title>Rock Paper Scissors</title>
+</svelte:head>
+
 <main>
 	<h2>Score: {playerScore} - {enemyScore}</h2>
 	<div id='game'>
